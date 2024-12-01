@@ -18,12 +18,18 @@
     <ClInclude Include="PolishForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DeterministicFiniteAutomaton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PolishForm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeterministicFiniteAutomaton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "PolishForm.h"
+#include "DeterministicFiniteAutomaton.h"
 
 int main()
 {

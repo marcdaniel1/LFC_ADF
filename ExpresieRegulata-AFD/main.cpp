@@ -36,19 +36,9 @@ void meniu(const std::string& inputFilePath) {
 
     std::cout << "Forma poloneza: " << polishNotation << std::endl;
 
-    //// Construirea automatului finit determinist
-    //auto lambdaNFA = buildLambdaNFA(polishNotation);
-    //auto dfa = lambdaNFA.convertToDFA();
-    DeterministicFiniteAutomaton lambdaNFA = buildLambdaNFA(const polishNotation);
-
-    // Verificăm dacă automatul este valid
-    if (!lambdaNFA.VerifyAutomaton()) {
-        std::cerr << "Automatul finit nedeterminist (AFN-λ) nu este valid.\n";
-        return;
-    }
-
-    // Transformarea AFN-λ într-un AFD
-    DeterministicFiniteAutomaton dfa = lambdaNFA.convertToDFA();
+    // Construirea automatului finit determinist
+    auto lambdaNFA = buildLambdaNFA(polishNotation);
+    auto dfa = lambdaNFA.convertToDFA();
 
     // Meniul interactiv
     int optiune = -1;

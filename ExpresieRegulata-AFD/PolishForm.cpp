@@ -1,4 +1,4 @@
-#include "PolishForm.h"
+﻿#include "PolishForm.h"
 #include <iostream>
 #include <cctype> 
 
@@ -109,3 +109,4 @@ std::string addPlusBetweenChars(const std::string& expression)
     }
     return expressionWithPluses;
 }
+

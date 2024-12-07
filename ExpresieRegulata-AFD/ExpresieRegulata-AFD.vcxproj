@@ -143,6 +143,9 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PolishForm.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="regex.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
